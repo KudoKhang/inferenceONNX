@@ -293,7 +293,7 @@ int main(int argc, char* argv[]) {
     result.convertTo(result, CV_8UC1);
 
     /*
-     * THRESH đóng vai trò như confident score
+     * THRESH đóng vai trò như confidence score
      * THRESH càng cao thì mask càng sát
      */
     cv::threshold(result, result, 220, 255, cv::THRESH_BINARY);
